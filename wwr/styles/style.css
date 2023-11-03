@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Gloock&display=swap');
 
+/* header section */
 
 header {
     background-color: #f6f1d1;
     display: grid;
     grid-template-columns: 150px auto;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
 }
 
 nav {
@@ -41,12 +47,21 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/* body */
+
 body {
     background-color: #fcfbfb; 
     font-family: Gloock, 'Times New Roman', serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+
+#background {
+    height: 725px;
+    background-color: #4BA3C3;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 h2 {
@@ -61,6 +76,8 @@ h2 {
 h4 {
     color: #000000;
 }
+
+/* hero */
 
 #hero {
     display: grid;
@@ -89,6 +106,8 @@ h4 {
     width: 100%;
 }
 
+/* main */
+
 main {
     display: grid;
     grid-template-columns: repeat(10,1fr);
@@ -97,6 +116,8 @@ main {
 main section {
     text-align: center;
 }
+
+/* image grid */
 
 main section img {
     box-sizing: border-box;
@@ -122,7 +143,7 @@ main section img {
     grid-row: 2/3;
 }
 
-
+/* cards */
 
 .card-img {
     border: 10px solid #4BA3C3;
@@ -145,21 +166,10 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-
-.icon {
-    width: 80px;
-    padding-top: 10px;
-}
+/* buttons */
 
 .button-box {
     text-align: center;
-}
-
-#background {
-    height: 725px;
-    background-color: #4BA3C3;
-    grid-column: 1/11;
-    grid-row: 4/9;
 }
 
 .book, .join {
@@ -176,6 +186,8 @@ main section img {
     background-color: #4BA3C3;
     color: #fcfbfb;
 }
+
+/* message section */
 
 .msg {
     background-color: #0f4c63;
@@ -197,7 +209,7 @@ main section img {
     padding-bottom: 15px;
 }
 
-
+/* footer */
 
 footer {
     background-color: #4BA3C3;
