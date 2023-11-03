@@ -50,9 +50,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
+h1 {
+  font-size: 5em;
+}
+
 h2 {
   text-align: center;
+  font-size: 3em;
 }
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
 hr {
   height: 3px;
   margin: 35px 0;
@@ -73,6 +87,11 @@ p {
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
+
+ul {
+  text-align: justify;
+}
+
 .colors {
   width: 100%;
   min-width: 350px;
@@ -106,6 +125,11 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
+li.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+  font-family: var(--paragraph-font);
+}
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
